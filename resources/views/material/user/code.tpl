@@ -33,7 +33,11 @@
 								<div class="card-inner">
 									<div class="card-inner">
 										<p class="card-heading">充值码</p>
-										<p>当前余额：{$user->money} 元</p>
+										<p>1；没有充值码？   您可以 <a href="http://svip.tzyee.net/list/3lR2c" target="_blank">点我购买充值码</a>，购买充值码请不要挂代理，否则可能打不开页面，谢谢；
+										<br>2；购买充值码后回到这里输入您购买到的充值码充值，请注意不要输入充值码前面 # 开头的序号，谢谢。</p>
+										
+										<p>当前余额：{$user->money} 元 
+										<br>余额充足？      您可以 <a href="/user/shop">点我到商店</a> 购买套餐。</p>
 										<div class="form-group form-group-label">
 											<label class="floating-label" for="code">充值码</label>
 											<input class="form-control" id="code" type="text">
